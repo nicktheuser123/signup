@@ -10,4 +10,21 @@
 body {
     font-size: 100px;
     font-family: Norse;
+    height: 100%;
+}
+
+.main-left{
+    width: 50%;
+    background-image: url('assets/halie-west-25xggax4bSA-unsplash.jpg');
+    height: 100%;
+}
+
+.banner {
+    max-width: 500px;
+}
+
+.logo-section { 
+
+    display: flex;
+    flex-direction: row;
 }
