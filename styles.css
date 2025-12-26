@@ -23,20 +23,40 @@ body {
 .main-left{
     display: flex;
     flex-direction: column;
-    width: 40vw;
+    width: 35vw;
     background-image: url('assets/halie-west-25xggax4bSA-unsplash.jpg');    
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
+    justify-content: space-between;
+    
 }
 
 .attribution-text{
     color: white;
 }
+
+.logo-text{
+    font-family: Norse;
+    font-size: 80px;
+    color: white;
+    
+}
+
 /* ? .banner {
     max-width: 300px;
 } */
 
+.logo-img{
+    
+    
+}
+
 .logo-section { 
+    margin-top: 200px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #00000080;
+    height: 150px;
 }
