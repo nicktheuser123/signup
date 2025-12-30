@@ -33,23 +33,26 @@ body {
 
 .attribution-text{
     color: white;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    letter-spacing: 1px;
+    text-align: center;
 }
 
 .logo-text{
     font-family: Norse;
-    font-size: 80px;
+    font-size: 80px;    
+    color: white;    
+}
+
+a:link, a:visited {
     color: white;
-    
 }
 
 /* ? .banner {
     max-width: 300px;
 } */
 
-.logo-img{
-    
-    
-}
 
 .logo-section { 
     margin-top: 200px;
@@ -59,4 +62,21 @@ body {
     justify-content: center;
     background-color: #00000080;
     height: 150px;
+}
+
+.header{
+    padding: 150px 40px 60px 40px; 
+    max-width: 500px;
+}
+
+.header-text {    
+    font-weight: bold;
+
+}
+
+.form-inputs-container{
+    height: 500px;
+    width: 400px;
+    background: white; 
+    background-color: white;
 }
