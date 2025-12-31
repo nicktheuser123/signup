@@ -75,8 +75,25 @@ a:link, a:visited {
 }
 
 .form-inputs-container{
-    height: 500px;
-    width: 400px;
-    background: white; 
+    display: flex;
+    flex-direction: row;
+    height: 100px;        
     background-color: white;
+    width: 100%;
+    box-shadow: 20px 20px #E5E7EB ;
+}
+
+.main-right{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.form-input-col{
+    display: flex;
+    flex-direction: column;
+
+
 }
