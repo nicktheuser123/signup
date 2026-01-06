@@ -65,13 +65,12 @@ a:link, a:visited {
 }
 
 .header{
-    padding: 150px 40px 60px 40px; 
+    padding: 150px 40px 40px 40px; 
     max-width: 500px;
 }
 
 .header-text {    
     font-weight: bold;
-
 }
 
 .form-inputs-container{
@@ -101,4 +100,5 @@ a:link, a:visited {
 
 .form-header{
     font-size: 24px;
+    margin: 0px;
 }
