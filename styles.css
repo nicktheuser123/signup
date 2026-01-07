@@ -76,7 +76,7 @@ a:link, a:visited {
 .form-inputs-container{
     display: flex;
     flex-direction: row;
-    height: 100px;        
+            
     background-color: white;
     width: 100%;
     box-shadow: 20px 20px #E5E7EB ;
@@ -94,11 +94,22 @@ a:link, a:visited {
 .form-input-col{
     display: flex;
     flex-direction: column;
-
+    gap: 20px;
 
 }
 
 .form-header{
     font-size: 24px;
     margin: 0px;
+}
+
+.form-row{
+    display: flex;    
+    gap: 40px;
+}
+
+.form-row-item{
+    display: flex;    
+    flex-direction: column;
+    width: 250px;
 }
