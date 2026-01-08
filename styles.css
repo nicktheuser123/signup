@@ -113,3 +113,21 @@ a:link, a:visited {
     flex-direction: column;
     width: 250px;
 }
+
+input{
+    border-style: solid;
+    border-color:#E5E7EB;
+    border-radius: 3px;
+    height: 25px;
+}
+
+input:invalid{
+    border-color:#f92d2d;
+}
+
+input:focus{
+    outline: none;
+    border-color:#2d6ef9;
+    box-shadow: 2px 2px #E5E7EB;
+    
+}
