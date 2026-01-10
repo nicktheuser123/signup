@@ -75,8 +75,7 @@ a:link, a:visited {
 
 .form-inputs-container{
     display: flex;
-    flex-direction: row;
-            
+    flex-direction: row;            
     background-color: white;
     width: 100%;
     box-shadow: 10px 5px 10px #E5E7EB ;
@@ -136,6 +135,7 @@ button {
     width: 200px;
     height: 35px;
     padding: 5px;
+    font-weight: bold;
     color: white;
     background-color: #596D48;
     border-radius: 5px;
@@ -149,3 +149,12 @@ button {
     gap: 15px;
     padding: 40px;
 }
+
+#login {
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* TODO */
+/* Gap needs to be fixed at bottom */
