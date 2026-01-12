@@ -73,13 +73,12 @@ a:link, a:visited {
     font-weight: bold;
 }
 
-.form-inputs-container{
-    display: flex;
-    flex-direction: row;            
+.form-inputs-container{             
     background-color: white;
     width: 100%;
     box-shadow: 10px 5px 10px #E5E7EB ;
     padding: 20px 40px 20px 40px;
+
 }
 
 .main-right{
@@ -94,7 +93,6 @@ a:link, a:visited {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .form-header{
@@ -155,6 +153,3 @@ button {
     text-decoration: none;
     font-weight: bold;
 }
-
-/* TODO */
-/* Gap needs to be fixed at bottom */
