@@ -1,3 +1,21 @@
+:root {
+    --main-green: #596D48;
+    --main-white: white;
+    --main-grey: #E5E7EB;
+    --main-invalid: #f92d2d;
+    --main-input-selected: #2d6ef9 ;
+    --txt: black;
+    --txt-light: #000000c8; 
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--txt);
+}
+
 @font-face {
     font-family: 'Norse';
     src: url('fonts/Norse-Bold.woff2') format('woff2'),
@@ -31,21 +49,23 @@ body {
 }
 
 .attribution-text{
-    color: white;
+    color: var(--main-white);
     font-family: "Helvetica Neue";
-    font-weight: 200;
-    letter-spacing: 1px;
+    font-weight: 100;
+    letter-spacing: 0.5px;
     text-align: center;
+    padding-bottom: 16px;
+    font-size: 12px;
 }
 
 .logo-text{
     font-family: Norse;
     font-size: 80px;    
-    color: white;    
+    color: var(--main-white);    
 }
 
 a:link, a:visited {
-    color: white;
+    color: var(--main-white);
 }
 
 /* ? .banner {
@@ -65,7 +85,7 @@ a:link, a:visited {
 
 .header{
     padding: 150px 40px 40px 40px; 
-    max-width: 500px;
+    max-width: 800px;
 }
 
 .header-text {    
@@ -73,9 +93,9 @@ a:link, a:visited {
 }
 
 .form-inputs-container{             
-    background-color: white;
+    background-color: var(--main-white);
     width: 100%;
-    box-shadow: 10px 5px 10px #E5E7EB ;
+    box-shadow: 10px 5px 10px var(--main-grey) ;
     padding: 20px 40px 20px 40px;
 
 }
@@ -112,20 +132,27 @@ a:link, a:visited {
 
 input{
     border-style: solid;
-    border-color:#E5E7EB;
+    border-color: var(--main-grey);
     border-radius: 3px;
     height: 25px;
 }
 
 input:invalid{
-    border-color:#f92d2d;
+    border-color: var(--main-invalid) ;
 }
 
 input:focus{
     outline: none;
-    border-color:#2d6ef9;
-    box-shadow: 3px 3px 10px #E5E7EB;
+    border-color: var(--main-input-selected);
+    box-shadow: 3px 3px 10px var(--main-grey);
     
+}
+
+label {
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    color: var(--txt-light);
+    padding-bottom: 2px;
 }
 
 button {
@@ -133,11 +160,11 @@ button {
     height: 35px;
     padding: 5px;
     font-weight: bold;
-    color: white;
-    background-color: #596D48;
+    color: var(--main-white);
+    background-color: var(--main-green);
     border-radius: 5px;
     border: none;
-    box-shadow: 3px 3px 10px #E5E7EB;
+    box-shadow: 3px 3px 10px var(--main-grey);
 }
 
 .form-submit{
@@ -148,7 +175,19 @@ button {
 }
 
 #login {
-    color: #596D48;
+    color: var(--main-green);
     text-decoration: none;
     font-weight: bold;
 }
+
+
+/* 
+TOdo
+Add variables declarations to colors
+Remove default styles using *
+
+Look and see how we can improve
+https://github.com/0xabdulkhaliq/basket-sign-up/blob/main/assets/css/styles.css
+
+https://github.com/maciejmroz2002/sign-up-form
+*/
