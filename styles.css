@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     width: 35vw;
     background-image: url('assets/halie-west-25xggax4bSA-unsplash.jpg');    
-    background-size: cover;
+    background-size: cover;     
     background-repeat: no-repeat;
     justify-content: space-between;
     
@@ -68,10 +68,6 @@ a:link, a:visited {
     color: var(--main-white);
 }
 
-/* ? .banner {
-    max-width: 300px;
-} */
-
 
 .logo-section { 
     margin-top: 200px;
@@ -93,10 +89,13 @@ a:link, a:visited {
 }
 
 .form-inputs-container{             
+    display: flex;
+    flex-direction: column;
     background-color: var(--main-white);
     width: 100%;
     box-shadow: 10px 5px 10px var(--main-grey) ;
     padding: 20px 40px 20px 40px;
+    gap: 20px;
 
 }
 
@@ -108,10 +107,12 @@ a:link, a:visited {
     
 }
 
-.form-input-col{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+form {
+    display: flex;    
+    row-gap: 20px;
+    max-width: 80%;
+    column-gap: 35px;
+    flex-wrap: wrap;
 }
 
 .form-header{
@@ -119,15 +120,12 @@ a:link, a:visited {
     margin: 0px;
 }
 
-.form-row{
-    display: flex;    
-    gap: 40px;
-}
 
 .form-row-item{
     display: flex;    
     flex-direction: column;
-    width: 250px;
+    
+    min-width: 350px;
 }
 
 input{
@@ -144,8 +142,7 @@ input:invalid{
 input:focus{
     outline: none;
     border-color: var(--main-input-selected);
-    box-shadow: 3px 3px 10px var(--main-grey);
-    
+    box-shadow: 3px 3px 10px var(--main-grey);    
 }
 
 label {
@@ -182,7 +179,7 @@ button {
 
 
 /* 
-TOdo
+ToDo
 Look and see how we can improve
 https://github.com/maciejmroz2002/sign-up-form
 https://maciejmroz2002.github.io/sign-up-form/
